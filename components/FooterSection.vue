@@ -8,7 +8,7 @@
         <div
           class="text-xs md:text-sm font-medium hover:text-blue-700 transition-all duration-300 ease-in-out"
         >
-          Copyright 2025.
+          RSDH 2025.
         </div>
         <div
           class="text-xs md:text-sm font-medium hover:text-blue-700 transition-all duration-300 ease-in-out"

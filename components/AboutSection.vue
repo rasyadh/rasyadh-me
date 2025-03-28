@@ -3,7 +3,7 @@
     <div>
       <div class="flex flex-col gap-y-2">
         <NuxtImg
-          src="/avatar.webp"
+          src="/avatar.png"
           class="w-16 h-16 rounded-full"
           alt="Rasyadh Abdul Aziz"
           preload
@@ -46,11 +46,19 @@ const socials: TSocial[] = [
   },
   {
     name: "Github",
-    url: "http://github.com/rasyadh/",
+    url: "http://github.com/rasyadh",
   },
   {
     name: "LinkedIn",
-    url: "http://linkedin.com/in/rasyadh/",
+    url: "http://linkedin.com/in/rasyadh",
+  },
+  {
+    name: "Behance",
+    url: "https://www.behance.net/rasyadh",
+  },
+  {
+    name: "Instagram",
+    url: "https://www.instagram.com/rasyadh_",
   },
   {
     name: "Email",

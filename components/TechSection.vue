@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col gap-y-4 my-10">
     <div class="flex flex-col gap-y-4">
-      <h5 class="text-sm font-medium text-gray-500">Currently expertise.</h5>
+      <h5 class="text-sm font-medium text-gray-500">Expertise.</h5>
       <div class="flex flex-wrap items-center gap-x-3 w-fit">
         <div v-for="skill in skills" :key="skill.name">
           <a
