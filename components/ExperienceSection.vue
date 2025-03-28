@@ -5,22 +5,25 @@
       :key="et.title"
       class="flex flex-col gap-y-4"
     >
-      <h5 class="text-sm font-medium text-gray-500">{{ et.title }}</h5>
+      <StaggerMotion :delay="600">
+        <h5 class="text-sm font-medium text-gray-500">{{ et.title }}</h5>
+      </StaggerMotion>
       <div class="flex flex-col gap-y-2">
-        <div
-          v-for="exp in et.experiences"
-          :key="exp.title"
+        <StaggerMotion
+          v-for="(exp, index) in et.experiences"
+          :key="index"
+          :delay="650 + index * 50"
           class="flex flex-col gap-y-1"
         >
           <a
             :href="exp.url"
-            class="w-fit border-b border-gray-200 font-medium hover:border-blue-700 transition-all duration-300 ease-in-out"
+            class="w-fit border-b-2 border-gray-200 font-medium hover:border-blue-700 transition-all duration-300 ease-in-out"
             target="_blank"
           >
             {{ exp.title }}
           </a>
           <p class="text-gray-600 text-sm">{{ exp.description }}</p>
-        </div>
+        </StaggerMotion>
       </div>
     </div>
   </div>
