@@ -2,6 +2,9 @@
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
+  nitro: {
+    preset: "static",
+  },
   app: {
     head: {
       title: "Rasyadh Abdul Aziz",
@@ -100,5 +103,8 @@ export default defineNuxtConfig({
   },
   vite: {
     plugins: [tailwindcss()],
+    build: {
+      sourcemap: process.env.NODE_ENV !== "production",
+    },
   },
 });
