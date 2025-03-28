@@ -1,11 +1,10 @@
 <template>
   <div class="min-h-screen flex flex-col items-center justify-center gap-y-2">
-    <NuxtImg
+    <img
       :src="error.statusCode == 404 ? '/404.png' : '/error.png'"
       class="w-32 h-32 rounded-full"
       alt="Rasyadh Abdul Aziz"
-      preload
-    />
+    >
     <button
       class="text-sm text-gray-500 hover:underline flex items-center gap-x-2"
       @click="handleError"
