@@ -72,4 +72,12 @@ yarn preview
 bun run preview
 ```
 
+Firebase hosting deploy:
+
+```bash
+npm run build
+
+firebase deploy
+```
+
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
