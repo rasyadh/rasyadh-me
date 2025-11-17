@@ -19,8 +19,9 @@ export default defineNuxtConfig({
         {
           name: "keywords",
           content:
-            "software engineer,mobile development,web development,technical consulting,iOS,Swift,Flutter,Nuxt.js,VueJs",
+            "Rasyadh,software engineer,mobile development,web development,technical consulting,iOS,Swift,Flutter,Nuxt.js,VueJs",
         },
+        { name: "application-name", content: "Rasyadh" },
         {
           property: "og:title",
           content: "Rasyadh Abdul Aziz - Software Engineer",
@@ -32,6 +33,8 @@ export default defineNuxtConfig({
         },
         { property: "og:type", content: "website" },
         { property: "og:image", content: "/og-image.png" },
+        { property: "og:image:type", content: "image/png" },
+        { property: "og:image:alt", content: "Rasyadh" },
         {
           property: "og:url",
           content: "https://rasyadh.me",
@@ -45,6 +48,7 @@ export default defineNuxtConfig({
           content: "en_US",
         },
         { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:domain", content: "rasyadh.me" },
         {
           name: "twitter:title",
           content: "Rasyadh Abdul Aziz - Software Engineer",

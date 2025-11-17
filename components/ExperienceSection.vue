@@ -79,5 +79,22 @@ const experienceTypes: TExperienceType[] = [
       },
     ],
   },
+  {
+    title: "Personal Projects.",
+    experiences: [
+      {
+        title: "Rayu",
+        description:
+          "Rayu wedding invitation website build using Nuxt3, tailwind, integrated with controlled media playback, and sheets.",
+        url: "https://rayu.rasyadh.me",
+      },
+      {
+        title: "Rayu POV",
+        description:
+          "Rayu POV camera app capturing the moment of the Rayu, collect guest photos on Rayu moments.",
+        url: "https://rayu.rasyadh.me/pov/example",
+      },
+    ],
+  },
 ];
 </script>
